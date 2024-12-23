@@ -20,7 +20,7 @@ jobs:
           host: ${{ secrets.EC2_HOST_IP }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /home/ubuntu/docker_project
+            cd /home/ubuntu/Docker-compose
             sudo git pull origin main
             sudo docker-compose down
             sudo docker-compose up -d —build
