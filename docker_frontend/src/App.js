@@ -24,6 +24,7 @@ function App() {
     return (
         <>
             {userlist}
+	    주술회전 짱!
         </>
 
     );
